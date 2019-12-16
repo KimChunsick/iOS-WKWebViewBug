@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		EE127CA223A7B7A300569D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE127CA123A7B7A300569D8F /* AppDelegate.swift */; };
 		EE127CA423A7B7A300569D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE127CA323A7B7A300569D8F /* SceneDelegate.swift */; };
-		EE127CA623A7B7A300569D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE127CA523A7B7A300569D8F /* ViewController.swift */; };
 		EE127CA923A7B7A300569D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE127CA723A7B7A300569D8F /* Main.storyboard */; };
 		EE127CAB23A7B7A300569D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE127CAA23A7B7A300569D8F /* Assets.xcassets */; };
 		EE127CAE23A7B7A300569D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE127CAC23A7B7A300569D8F /* LaunchScreen.storyboard */; };
 		EE127CB923A7B7A300569D8F /* WKWebViewBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE127CB823A7B7A300569D8F /* WKWebViewBugTests.swift */; };
 		EE127CC423A7B7A400569D8F /* WKWebViewBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE127CC323A7B7A400569D8F /* WKWebViewBugUITests.swift */; };
+		EEEA360423A7B8960065D433 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA360323A7B8960065D433 /* Constants.swift */; };
+		EEEA360623A7B9CF0065D433 /* ViewDidLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA360523A7B9CF0065D433 /* ViewDidLoadViewController.swift */; };
+		EEEA360823A7B9DC0065D433 /* ViewWillAppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA360723A7B9DC0065D433 /* ViewWillAppearViewController.swift */; };
+		EEEA360A23A7B9E70065D433 /* ViewDidAppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA360923A7B9E70065D433 /* ViewDidAppearViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		EE127C9E23A7B7A300569D8F /* WKWebViewBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE127CA123A7B7A300569D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE127CA323A7B7A300569D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE127CA523A7B7A300569D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE127CA823A7B7A300569D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE127CAA23A7B7A300569D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE127CAD23A7B7A300569D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		EE127CBF23A7B7A400569D8F /* WKWebViewBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE127CC323A7B7A400569D8F /* WKWebViewBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewBugUITests.swift; sourceTree = "<group>"; };
 		EE127CC523A7B7A400569D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEA360323A7B8960065D433 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EEEA360523A7B9CF0065D433 /* ViewDidLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadViewController.swift; sourceTree = "<group>"; };
+		EEEA360723A7B9DC0065D433 /* ViewWillAppearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWillAppearViewController.swift; sourceTree = "<group>"; };
+		EEEA360923A7B9E70065D433 /* ViewDidAppearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidAppearViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +152,9 @@
 		EEEA35FC23A7B8030065D433 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EE127CA523A7B7A300569D8F /* ViewController.swift */,
+				EEEA360523A7B9CF0065D433 /* ViewDidLoadViewController.swift */,
+				EEEA360723A7B9DC0065D433 /* ViewWillAppearViewController.swift */,
+				EEEA360923A7B9E70065D433 /* ViewDidAppearViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 		EEEA35FD23A7B8070065D433 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EEEA360223A7B88D0065D433 /* Constant */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -166,6 +175,14 @@
 				EE127CAF23A7B7A300569D8F /* Info.plist */,
 			);
 			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		EEEA360223A7B88D0065D433 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				EEEA360323A7B8960065D433 /* Constants.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,9 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE127CA623A7B7A300569D8F /* ViewController.swift in Sources */,
 				EE127CA223A7B7A300569D8F /* AppDelegate.swift in Sources */,
+				EEEA360623A7B9CF0065D433 /* ViewDidLoadViewController.swift in Sources */,
+				EEEA360A23A7B9E70065D433 /* ViewDidAppearViewController.swift in Sources */,
 				EE127CA423A7B7A300569D8F /* SceneDelegate.swift in Sources */,
+				EEEA360823A7B9DC0065D433 /* ViewWillAppearViewController.swift in Sources */,
+				EEEA360423A7B8960065D433 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -460,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -475,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526389PKKJ;
 				INFOPLIST_FILE = WKWebViewBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526389PKKJ;
 				INFOPLIST_FILE = WKWebViewBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

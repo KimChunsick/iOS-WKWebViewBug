@@ -1,1 +1,7 @@
-# iOS-WKWebViewBug
+# iOS-WKWebViewBug 
+직접 겪은 WKWebView의 버그(?)에 관련된 내용입니다.
+
+버그 재현을 담아놓은 영상은 [블로그](https://wangchunsik.tistory.com/8)에서 확인하실 수 있습니다.
+
+
+혹시 제가 잘못알고 이 현상이 **버그가 아닐 수도** 있습니다! 만약 그렇다면, 풀 리퀘스트로 알려주시면 대단히 감사하겠습니다.
